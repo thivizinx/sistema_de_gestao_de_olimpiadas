@@ -1,0 +1,97 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 OPR/122.0.0.0" version="28.2.7">
+  <diagram name="Página-1" id="-_bCzYj6da35jb9xvOJb">
+    <mxGraphModel dx="1144" dy="714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QWJI_v7i4ti4fClcvnf9-1" value="Administrador" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="220" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QWJI_v7i4ti4fClcvnf9-2" value="Atleta" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="340" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QWJI_v7i4ti4fClcvnf9-3" value="Comitê Olimpico" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="290" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QWJI_v7i4ti4fClcvnf9-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="110" width="380" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="QWJI_v7i4ti4fClcvnf9-7" value="Cadastro de competição" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="200" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QWJI_v7i4ti4fClcvnf9-8" value="Inscrever em competição" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="370" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QWJI_v7i4ti4fClcvnf9-9" value="Registrar resultados" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="370" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QWJI_v7i4ti4fClcvnf9-12" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="QWJI_v7i4ti4fClcvnf9-9" target="QWJI_v7i4ti4fClcvnf9-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="420" as="sourcePoint" />
+            <mxPoint x="610" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QWJI_v7i4ti4fClcvnf9-14" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="QWJI_v7i4ti4fClcvnf9-7" target="QWJI_v7i4ti4fClcvnf9-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="325" as="sourcePoint" />
+            <mxPoint x="720" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QWJI_v7i4ti4fClcvnf9-15" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="QWJI_v7i4ti4fClcvnf9-2" target="QWJI_v7i4ti4fClcvnf9-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="415" as="sourcePoint" />
+            <mxPoint x="330" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QWJI_v7i4ti4fClcvnf9-16" value="Cadastrar atleta" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="200" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QWJI_v7i4ti4fClcvnf9-17" value="Cadastrar comite olimpico" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="205" y="270" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QWJI_v7i4ti4fClcvnf9-18" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="QWJI_v7i4ti4fClcvnf9-1" target="QWJI_v7i4ti4fClcvnf9-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="335" as="sourcePoint" />
+            <mxPoint x="300" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QWJI_v7i4ti4fClcvnf9-19" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.6;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="QWJI_v7i4ti4fClcvnf9-1" target="QWJI_v7i4ti4fClcvnf9-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="305" as="sourcePoint" />
+            <mxPoint x="240" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QWJI_v7i4ti4fClcvnf9-20" value="Gerar relatorios de medalas" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="450" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QWJI_v7i4ti4fClcvnf9-21" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="QWJI_v7i4ti4fClcvnf9-20" target="QWJI_v7i4ti4fClcvnf9-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="495" as="sourcePoint" />
+            <mxPoint x="810" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QWJI_v7i4ti4fClcvnf9-22" value="Aprovar inscrição de atletas" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="130" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QWJI_v7i4ti4fClcvnf9-23" value="&amp;lt;&amp;lt;extend&amp;gt;" style="endArrow=classic;html=1;rounded=0;entryX=0.289;entryY=0.1;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;endFill=1;entryPerimeter=0;" edge="1" parent="1" source="QWJI_v7i4ti4fClcvnf9-22" target="QWJI_v7i4ti4fClcvnf9-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="245" as="sourcePoint" />
+            <mxPoint x="740" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QWJI_v7i4ti4fClcvnf9-24" value="Visualizar lista de competições" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="440" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QWJI_v7i4ti4fClcvnf9-25" value="&amp;lt;&amp;lt;extend&amp;gt;" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;exitX=0.422;exitY=0.98;exitDx=0;exitDy=0;endFill=1;exitPerimeter=0;" edge="1" parent="1" source="QWJI_v7i4ti4fClcvnf9-8" target="QWJI_v7i4ti4fClcvnf9-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="470" as="sourcePoint" />
+            <mxPoint x="419" y="502" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QWJI_v7i4ti4fClcvnf9-26" value="Diagrama de Casos de Uso" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="255" y="80" width="210" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
